@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e4479a;
+            background-image: url("views\background.jpeg");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        .nav li {
+            display: inline;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .nav a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="signin">Login</a></li>
+        <li><a href="signup">Sign up</a></li>
+    </ul>
+</body>
+</html>
